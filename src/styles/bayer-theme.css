@@ -1,0 +1,150 @@
+/* Bayer Design System Theme - Eyeglass Showroom */
+
+:root {
+  /* Primary Colors - Professional Blue */
+  --lmnt-theme-primary: #1e3a8a;
+  --lmnt-theme-primary-variant: #1e40af;
+  --lmnt-on-primary-base: #ffffff;
+  
+  /* Secondary Colors - Elegant Gold */
+  --lmnt-theme-secondary: #d97706;
+  --lmnt-theme-secondary-variant: #f59e0b;
+  --lmnt-on-secondary-base: #ffffff;
+  
+  /* Surface Colors */
+  --lmnt-theme-surface: #ffffff;
+  --lmnt-theme-surface-variant: #f3f4f6;
+  --lmnt-theme-on-surface: #1f2937;
+  
+  /* Background */
+  --lmnt-theme-background: #f9fafb;
+  --lmnt-theme-on-background: #111827;
+  
+  /* Semantic Colors */
+  --lmnt-theme-danger: #dc2626;
+  --lmnt-theme-success: #16a34a;
+  
+  /* Footer Colors - Green */
+  --lmnt-theme-footer: #15803d;
+  --lmnt-theme-footer-dark: #166534;
+  --lmnt-on-footer: #ffffff;
+  
+  /* Dividers */
+  --lmnt-theme-divider-primary: rgba(30, 58, 138, 0.12);
+  --lmnt-theme-divider-footer: rgba(255, 255, 255, 0.2);
+}
+
+/* Text Color Classes */
+.lmnt-theme-primary {
+  color: var(--lmnt-theme-primary);
+}
+
+.lmnt-theme-secondary {
+  color: var(--lmnt-theme-secondary);
+}
+
+.lmnt-theme-on-primary {
+  color: var(--lmnt-on-primary-base);
+}
+
+.lmnt-theme-on-secondary {
+  color: var(--lmnt-on-secondary-base);
+}
+
+.lmnt-theme-on-surface {
+  color: var(--lmnt-theme-on-surface);
+}
+
+.lmnt-theme-on-background {
+  color: var(--lmnt-theme-on-background);
+}
+
+.lmnt-theme-danger {
+  color: var(--lmnt-theme-danger);
+}
+
+.lmnt-theme-success {
+  color: var(--lmnt-theme-success);
+}
+
+.lmnt-theme-on-footer {
+  color: var(--lmnt-on-footer);
+}
+
+/* Background Color Classes */
+.lmnt-theme-primary-bg {
+  background-color: var(--lmnt-theme-primary);
+}
+
+.lmnt-theme-primary-variant-bg {
+  background-color: var(--lmnt-theme-primary-variant);
+}
+
+.lmnt-theme-secondary-bg {
+  background-color: var(--lmnt-theme-secondary);
+}
+
+.lmnt-theme-secondary-variant-bg {
+  background-color: var(--lmnt-theme-secondary-variant);
+}
+
+.lmnt-theme-surface-bg {
+  background-color: var(--lmnt-theme-surface);
+}
+
+.lmnt-theme-surface-variant-bg {
+  background-color: var(--lmnt-theme-surface-variant);
+}
+
+.lmnt-theme-background-bg {
+  background-color: var(--lmnt-theme-background);
+}
+
+.lmnt-theme-danger-bg {
+  background-color: var(--lmnt-theme-danger);
+}
+
+.lmnt-theme-success-bg {
+  background-color: var(--lmnt-theme-success);
+}
+
+.lmnt-theme-footer-bg {
+  background-color: var(--lmnt-theme-footer);
+}
+
+.lmnt-theme-footer-dark-bg {
+  background-color: var(--lmnt-theme-footer-dark);
+}
+
+/* Border Color Classes */
+.lmnt-theme-primary-border {
+  border-color: var(--lmnt-theme-primary);
+}
+
+.lmnt-theme-secondary-border {
+  border-color: var(--lmnt-theme-secondary);
+}
+
+.lmnt-theme-divider-primary {
+  border-color: var(--lmnt-theme-divider-primary);
+}
+
+.lmnt-theme-divider-footer {
+  border-color: var(--lmnt-theme-divider-footer);
+}
+
+/* Opacity Variants */
+.lmnt-theme-on-primary-active {
+  color: var(--lmnt-on-primary-base);
+  opacity: 0.87;
+}
+
+.lmnt-theme-on-primary-inactive {
+  color: var(--lmnt-on-primary-base);
+  opacity: 0.73;
+}
+
+.lmnt-theme-on-primary-disabled {
+  color: var(--lmnt-on-primary-base);
+  opacity: 0.38;
+}
